@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # ✅ Load .env file
 load_dotenv()
 
-BOT_TOKEN = os.getenv("7394121126:AAEdafEE_8hff1NmDLO7tsirJKUXsldF_lI")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 def start(update, context):
     update.message.reply_text(
